@@ -1,0 +1,116 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+main {
+    width: 70vw;
+    margin: 30px auto;
+    
+}
+
+.hunger img {
+    top: 32vh;
+    left: 36vw;
+    max-height: 51vh;
+    opacity: 0.32;
+    position: fixed;
+    
+    object-fit: contain;
+}
+
+
+
+nav {
+    height: 10vh;
+    background: linear-gradient(90deg, rgb(251, 253, 253) 0%, rgba(0,212,255,0.0) 44%);
+}
+
+.about {
+    align-items: center;
+    align-content: center;
+    height: 90vh;
+    padding-top: 60px;
+}
+
+.about .boxes .container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    background: #c0ffec00;
+    color: aliceblue;
+    border-radius: 20px;
+    margin: 20px 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    padding: 15px 20px;
+}
+
+#Graphics {
+    padding-bottom: 20vh;
+    margin-bottom: 10vh;
+}
+
+.boxes {
+    position: absolute;
+    height: 15vh;
+    top: 85vh;
+}
+
+
+.about .container-fluid {
+    /* background: rgb(244,249,248); */
+    background: linear-gradient(90deg, rgba(244,249,248,0) 0%, rgba(0,255,239,0.03702030812324934) 37%, rgba(0,212,255,0) 100%);    
+    }
+
+img {object-fit: contain;}
+
+.about .container {
+background-color: rgba(255, 201, 65,0.2);
+}
+
+.about .container p img {
+    float: right;
+    max-height: 30vh;
+} 
+
+.tab-content p {
+    margin: 0 auto;
+}
+
+.skills {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.skills img {
+    max-height: 7vh;
+}
+
+.carousel .item {
+    height: 150px;
+  }
+  
+  .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 150px;
+    }
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.02);
+    margin-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+#Programmingproj {
+    padding-bottom: 20vh;
+    margin-bottom: 10vh;
+}
+
+#Graphicsproj {
+    padding-bottom: 40vh;
+    margin-bottom: 10vh;
+}
